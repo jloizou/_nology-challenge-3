@@ -1,0 +1,245 @@
+.backToStart{  
+    z-index: 1;
+    position: fixed; 
+    vertical-align: top; 
+    pointer-events: all; 
+    cursor: pointer; 
+    background-color: #24412a; 
+    color: #cfd1b5; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: large;
+
+
+}
+/* start page styling */
+
+.startPageBody{ 
+    background-image: url(https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?cs=srgb&dl=pexels-scott-webb-305821.jpg&fm=jpg); 
+    background-size: cover;
+}
+
+.introText{ 
+   text-align: center;
+    font-size: large; 
+    font-weight: 600; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+}  
+
+.introName{ 
+     text-align: center; 
+     font-size: xx-large; 
+     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+} 
+
+.intro{   
+     background-color:#706967;
+     border: 2px inset;   
+     margin: auto;  
+     width: 700px;
+     border-radius: 30px;     
+     vertical-align: middle; 
+}
+
+
+
+.aboutLink{ 
+    color:  	#24412a; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: x-large; 
+    list-style-type: none; 
+     font-size: 20px; 
+     background-color: #7c8a84; 
+     border: 10px solid #7c8a84;  
+     border-radius: 50px;
+     margin: auto; 
+     display: inline;   
+     vertical-align: middle; 
+     cursor: pointer; 
+
+} 
+a{ 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    color:  #7c8a84; 
+    text-decoration: none; 
+    text-emphasis: 2000;
+  
+}
+/* background page styling */ 
+.backgroundPage{
+    background-color: #7c8a84;
+}
+.aboutMeTitle{ 
+    border: 2px solid #24412a; 
+    background-color: #24412a; 
+    color: #cfd1b5;
+}
+
+
+.ethicalBeans{ 
+ max-width: 350px; 
+    max-height: 350px; 
+} 
+.historyMap{  
+    max-width: 350px; 
+    max-height: 350px;  
+   } 
+.ethicalText{ 
+    text-align: center; 
+    position: relative; 
+    color: 	#cfd1b5; 
+    font-size: large;
+} 
+.historyText{  
+    padding-top: 100px;
+    text-align: center; 
+    position: relative;
+    color: 	#cfd1b5; 
+    font-size: large;
+} 
+
+
+/* hobbies and interests styling */ 
+
+.hobbiesAndInterestsTitle{ 
+    border: 2px solid #24412a; 
+    background-color: #24412a; 
+    color: #cfd1b5;
+}
+.ukeButton{ 
+    border: 2px solid; 
+    margin: auto; 
+    display: inline-block; 
+    cursor: pointer; 
+    background-color: #24412a; 
+    color: #cfd1b5; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: large;
+}
+.ukeVideo{ 
+    max-width: 350px; 
+       max-height: 350px;  
+       display: none;
+   } 
+   .boxingGloves{  
+       max-width: 350px; 
+       max-height: 350px;  
+      } 
+   .ukeText{ 
+       text-align: center; 
+       position: relative;  
+       color: 	#cfd1b5; 
+       font-size: large;
+   } 
+   .boxingText{  
+       padding-top: 100px;
+       text-align: center; 
+       position: relative; 
+       padding-bottom: 50px;
+       color: 	#cfd1b5; 
+       font-size: large;
+   } 
+
+   /* ambitions page */  
+   .ambitionsTitle{ 
+    border: 2px solid #24412a; 
+    background-color: #24412a; 
+    color: #cfd1b5;
+}
+   .ambitionsText{ 
+       text-align: center; 
+       padding-top: 100px; 
+       color: 	#cfd1b5; 
+       font-size: large; 
+       text-shadow: 10px; 
+   }  
+   .inputLabel{ 
+    color: 	#cfd1b5; 
+    font-size: medium; 
+    text-shadow: 10px; 
+    border: 2px solid #24412a; 
+    background-color: #24412a ; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+   } 
+   .feedbackBox{ 
+    border: 2px solid #24412a; 
+    background-color: #24412a ; 
+    color: 	#cfd1b5; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    height: 18px; 
+    display: block;
+   } 
+   .submitButton{ 
+    border: 2px solid #24412a; 
+    background-color: #24412a ; 
+    color: 	#cfd1b5; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+    font-size: medium;
+   }
+
+   /* media queries */ 
+   @media screen and (max-width: 1034px) { 
+
+    /* start page styling */
+    
+    .startPageBody{ 
+        background-image: url(https://images.pexels.com/photos/305821/pexels-photo-305821.jpeg?cs=srgb&dl=pexels-scott-webb-305821.jpg&fm=jpg); 
+        background-size: cover;  
+        background-position: center center; 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-color: #706967;
+    } 
+    
+    @media screen and (max-width: 710px) {
+        .introText{ 
+            text-align: center;
+             font-size: large; 
+             font-weight: 600; 
+             font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+         }  
+         
+         .introName{ 
+              text-align: center; 
+              font-size: x-large; 
+              font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
+         } 
+         
+         .intro{   
+            background-color:#706967;
+            border: 2px inset;   
+            margin: auto;  
+            width: 350px;
+            border-radius: 30px;     
+            vertical-align: middle; 
+            box-sizing: border-box; 
+            text-align: center;
+         } 
+         .aboutLink{ 
+            color:  	#24412a; 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+            font-size: medium; 
+            list-style-type: none; 
+             font-size: 20px; 
+             background-color: #7c8a84; 
+             border: 10px solid #7c8a84;  
+             border-radius: 50px;
+             margin: auto; 
+             display: inline;   
+             vertical-align: middle; 
+             cursor: pointer; 
+        
+        } 
+        a{ 
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;  
+            color:  #7c8a84; 
+            text-decoration: none; 
+            text-emphasis: 2000;
+        
+
+    }
+    
+   
+
+
+
+    
